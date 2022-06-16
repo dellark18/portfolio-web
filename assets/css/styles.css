@@ -81,7 +81,7 @@ html, body {
   margin-left: 70px;
 }
 
-/* Second section */
+/* About section */
 .about-head-text {
   text-align: center;
   margin-top: 35px;
@@ -95,4 +95,62 @@ html, body {
   width: 300px;
   border-radius: 2%;
 
+}
+#about-column {
+  margin-top: 80px;
+}
+#about {
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Skills section */
+.skills-head-text {
+  text-align: center;
+  margin-top: 35px;
+  font-weight: 600;
+  color: #386EEB;
+}
+.skills-section {
+  margin-top: 50px;
+}
+.skills-img {
+  width: 450px;
+  margin-top: 60px;
+  margin-left: 55px;
+}
+.skills-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: .5rem 1rem;
+  margin-bottom: 20px;
+  border-radius: .5rem;
+  box-shadow: 0 4px 25px rgba(14, 36, 49, .15);
+}
+.skills-icon {
+  color: #386EEB;
+  margin-right: 10px;
+}
+.skills-bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #386EEB;
+  height: 4px;
+  border-radius: 8px;
+  z-index: 1;
+}
+.skills-html {
+width: 95%;
+}
+.skills-css {
+  width: 85%;
+}
+.skills-javascript {
+  width: 65%;
+}
+.skills-ui-ux {
+  width: 85%;
 }
