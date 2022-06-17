@@ -175,3 +175,15 @@ width: 95%;
   overflow: hidden;
   margin: 0 0 20px 0;
 }
+#work {
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Contact section */
+.contact-head-text {
+  text-align: center;
+  margin-top: 35px;
+  font-weight: 600;
+  color: #386EEB;
+}
