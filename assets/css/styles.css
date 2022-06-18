@@ -80,6 +80,10 @@ html, body {
   background-color: #386EEB;
   margin-left: 70px;
 }
+#home {
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
 
 /* About section */
 .about-head-text {
@@ -187,11 +191,18 @@ width: 95%;
   font-weight: 600;
   color: #386EEB;
 }
+.contact-section {
+  margin-top: 50px;
+}
+#contact {
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
 
 /* Scroll to the top button */
 #myBtn {
   display: none;
-  position: fixed; 
+  position: fixed;
   bottom: 20px;
   right: 30px;
   z-index: 99;
@@ -208,3 +219,5 @@ width: 95%;
 #myBtn:hover {
   background-color: #555;
 }
+
+/* Media queries */
