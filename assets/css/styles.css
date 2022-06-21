@@ -227,6 +227,7 @@ width: 95%;
   }
   .container-fluid {
     margin: 0 0 0 0;
+    padding: 0 10px 0 10px;
   }
   .navbar {
     padding: 1.5rem 0 0.5rem 0;
@@ -234,13 +235,12 @@ width: 95%;
     top: 0;
     left: 0;
     z-index: 9999;
-    width: 55%;
+    width: 61.5%;
   }
   .home-section-1 {
     margin-top: 60px;
   }
   .home-text {
-    margin-left: -95px;
     font-size: 40px;
     line-height: 1.3;
   }
@@ -251,13 +251,11 @@ width: 95%;
     font-size: 16px;
     color: #ffffff;
     background-color: #386EEB;
-    margin-left: -95px;
   }
   .home-social {
     direction: flex;
     flex-direction: column;
     margin-top: 30px;
-    margin-left: -95px;
   }
   .home-social-icon {
     padding: 8px 0 8px 0;
@@ -270,27 +268,44 @@ width: 95%;
     width: 235px;
     height: 235px;
     margin-top: -150px;
-    margin-left: -30px;
   }
   .about-img {
     width: 200px;
-    text-align: center;
-    margin-left: -43px;
-    justify-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   .about-head {
     margin-top: -40px;
     width: 200px;
-    margin-left: -17px;
+    display: block;
+    margin-left: 70px;
   }
   .about-paragraph {
-    width: 250px;
-    margin-left: -65px;
-    text-align: justify;
+    text-align: center;
+    display: block;
+    margin-left: 10px;
   }
   .skills-head {
-    width: 200px;
-    margin-left: -17px;
-    text-align: justify;
+    margin-left: 35px;
+  }
+  .skills-paragraph {
+    text-align: center;
+  }
+  .skills-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 295px;
+    border-radius: .5rem;
+    margin-top: 30px;
+  }
+  .work-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 295px;
+    border-radius: .5rem;
+
   }
 }
