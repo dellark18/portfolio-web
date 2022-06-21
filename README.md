@@ -1,4 +1,4 @@
-# portfolio-web
+# portfolio-web 💻
  
 This is a fully responsive personal portfolio website built using HTML, CSS and JS.
 
