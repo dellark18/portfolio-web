@@ -204,7 +204,7 @@ width: 95%;
   display: none;
   position: fixed;
   bottom: 20px;
-  right: 30px;
+  right: 10px;
   z-index: 99;
   border: none;
   outline: none;
@@ -212,8 +212,8 @@ width: 95%;
   color: white;
   cursor: pointer;
   padding: 15px;
-  border-radius: 10px;
-  font-size: 18px;
+  border-radius: 40px;
+  font-size: 15px;
 }
 
 #myBtn:hover {
@@ -235,8 +235,9 @@ width: 95%;
     top: 0;
     left: 0;
     z-index: 9999;
-    width: 61.5%;
   }
+
+  /* Home section for media querie @320px */
   .home-section-1 {
     margin-top: 60px;
   }
@@ -269,6 +270,8 @@ width: 95%;
     height: 235px;
     margin-top: -150px;
   }
+
+  /* About section for media querie @320px */
   .about-img {
     width: 200px;
     display: block;
@@ -286,6 +289,8 @@ width: 95%;
     display: block;
     margin-left: 10px;
   }
+
+  /* Skills section for media querie @320px */
   .skills-head {
     margin-left: 35px;
   }
@@ -300,12 +305,13 @@ width: 95%;
     border-radius: .5rem;
     margin-top: 30px;
   }
+
+  /* Work section for media querie @320px */
   .work-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 295px;
     border-radius: .5rem;
-
   }
 }
