@@ -178,6 +178,11 @@ width: 95%;
   border-radius: .5rem;
   overflow: hidden;
   margin: 0 0 20px 0;
+  transition: 1s;
+  cursor: pointer;
+}
+.work-img:hover {
+  transform: scaleX(1.1);
 }
 #work {
   padding-top: 50px;
